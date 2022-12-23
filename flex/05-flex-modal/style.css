@@ -51,16 +51,39 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 10px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.title{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text{
+  padding: 10px;
+  text-align:center;
+  margin: auto;
+}
+
+.icon{
+  flex: 0 0 auto;
 }
